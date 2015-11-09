@@ -1,0 +1,18 @@
+@color:red;
+#conatiner{
+  ul{
+    width:100px;
+    li{
+      float:left; background:@color;
+      a{
+        color:red;
+        &:hover{
+          background:green;
+        }
+      }
+    }
+  }
+}
+.wrap{
+  &:extend(#conatiner all);
+}

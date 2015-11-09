@@ -1,0 +1,18 @@
+#conatiner ul,
+.wrap ul {
+  width: 100px;
+}
+#conatiner ul li,
+.wrap ul li {
+  float: left;
+  background: red;
+}
+#conatiner ul li a,
+.wrap ul li a {
+  color: red;
+}
+#conatiner ul li a:hover,
+.wrap ul li a:hover {
+  background: green;
+}
+/*# sourceMappingURL=test.css.map */
